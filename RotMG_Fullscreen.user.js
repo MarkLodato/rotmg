@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name        RotMG Fullscreen
-// @namespace   mark
-// @include     http://www.realmofthemadgod.com/
+// @description Makes Realm of the Mad God fullscreen and have a better cursor.
 // @version     1
+// @namespace   https://github.com/MarkLodato
+// @downloadURL https://github.com/MarkLodato/rotmg/raw/master/RotMG_Fullscreen.user.js
+// @include     http://www.realmofthemadgod.com/
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
