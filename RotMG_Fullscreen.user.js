@@ -10,12 +10,16 @@
 var preserveAspect = true;
 var cursor = "url(http://www.macupdate.com/util/iconmd/17513.png) 28 25, auto";
 
-// Remove the footer
-function removeFooter() {
-    var p = document.body.getElementsByTagName('p');
+function removeElements(p) {
     while (p.length) {
         p[0].parentNode.removeChild(p[0]);
     }
+}
+
+// Remove the footer
+function removeFooter() {
+    removeElements(document.body.getElementsByTagName('div'));
+    removeElements(document.body.getElementsByTagName('p'));
 }
 
 // Expand window to full size
