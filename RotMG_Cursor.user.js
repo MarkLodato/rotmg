@@ -1,17 +1,17 @@
 // ==UserScript==
 // @name        RotMG Cursor
 // @description DOES NOT WORK - Replaces the cursor of Realm of the Mad God.
-// @version     1
+// @version     1.1
 // @namespace   https://github.com/MarkLodato
 // @downloadURL https://github.com/MarkLodato/rotmg/raw/master/RotMG_Cursor.user.js
 // @include     http://www.realmofthemadgod.com/
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js
 // ==/UserScript==
 
-// NOTE: This script does not seem to work anymore, at least on Chrome Linux.
+// NOTE: Does not work in Chrome Linux (at least) - nothing is clickable.
 
 // Options
-var cursor = "url(http://www.macupdate.com/util/iconmd/17513.png) 28 25, auto";
+var cursor = "url(https://raw.githubusercontent.com/MarkLodato/rotmg/master/rotmg.cur), auto";
 
 // Set the crosshair
 document.body.style.cursor = cursor;
